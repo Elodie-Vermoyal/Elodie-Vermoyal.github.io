@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #fff0f5 0%, #ffd1dc 100%);
+    background: white;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -20,18 +20,6 @@ body {
 }
 
 
-body::before {
-    top: 10%;
-    left: 5%;
-    transform: rotate(-20deg);
-}
-
-body::after {
-    bottom: 10%;
-    right: 5%;
-    transform: rotate(15deg);
-    font-size: 7rem;
-}
 /*informations de côté*/
 .sidebar {
     background-color: #ff4d94;
@@ -140,4 +128,5 @@ ul li{
 .skills-list li {
     margin-bottom: 15px;
     line-height: 1.6;
+
 }
