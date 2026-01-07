@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fff0f5 0%, #ffd1dc 100%);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #444;
+}
+
+.cv-container {
+    background: white;
+    width: 100%;
+    height: 100%vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(255, 77, 148, 0.2);
+}
+
+
+body::before {
+    top: 10%;
+    left: 5%;
+    transform: rotate(-20deg);
+}
+
+body::after {
+    bottom: 10%;
+    right: 5%;
+    transform: rotate(15deg);
+    font-size: 7rem;
+}
+/*informations de côté*/
+.sidebar {
+    background-color: #ff4d94;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    border: 5px solid #ffdeeb;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: white;
+    color: #ff4d94;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    background-color: #ffdeeb;
+}
+
+/* Contenu */
+.main-content {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-info{
+    h2{
+        color:white;
+    }
+}
+h2 {
+    color: #ff007f;
+    text-align: center;
+
+}
+
+h3 {
+    color:#ff4d94;
+    text-align: center;
+}
+
+.exp-item {
+font-weight: bold;
+text-align: center;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li{
+    background-color: #ffdeeb;
+    text-align: center;
+}
+
+
+.social-links a {
+    color: white;
+    margin:10px;
+}
+
+/*écran de téléphone, réduction de la barre d'information*/
+@media screen and (max-width: 600px) {
+    .sidebar{
+        background-color: #ff4d94;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+}   
+.skills-container {
+    text-align: center; 
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Style de la liste */
+.skills-list {
+    list-style-type: none; 
+    padding: 0;
+    display: inline-block;
+    text-align: center;    
+}
+
+.skills-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
