@@ -16,7 +16,6 @@ body {
     grid-template-columns: 1fr 2fr;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(255, 77, 148, 0.2);
 }
 
 
@@ -55,7 +54,6 @@ body {
 
 /* Contenu */
 .main-content {
-    padding: 40px;
     text-align: center;
 }
 
@@ -130,3 +128,4 @@ ul li{
     line-height: 1.6;
 
 }
+
